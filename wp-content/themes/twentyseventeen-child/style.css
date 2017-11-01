@@ -1,0 +1,64 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI: 
+Description: A child theme of twentyseventeen
+Author: Aman Malhi
+Author URI: 
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+.site-info {display:none;}
+label { font-weight:600;}
+btton, input[type="button"],
+input[type = "submit"] {
+background-color: #666;}
+
+.entry-title{
+font-size:30px;
+font-weight:bold}
+
+/*
+.site-content{
+ background-image: url("http://foodsecret.com/wp-content/uploads/2015/10/Indian-Food.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ }
+.wrap {
+background-color: rgba( 0, 0, 0, 0.4) 
+}
+*/
+
+/*Change main background color*/
+.site-content-contain {
+    background-color: black;
+}
+
+/*Remove top padding so main background color doesn't show above the content*/
+div#content {
+    padding-top: 0;
+}
+
+/*Set content background color, add a bit of spacing*/
+#content .wrap {
+    background: #ddae68;
+    padding-top: 30px;
+}
+
+.navigation-top {
+    background-color: #ddae68;
+}
+
+.entry-header {
+   padding: 0 5%;
+}
+.entry-title, .widecolumn h2 {
+   margin-bottom: 0.5em;
+}
+.entry-content, .entry-summary {
+   padding: 0 5% 10%;
+}
+
+
+ body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a, h1.site-title a {color:mintcream;
+background-color: black}
