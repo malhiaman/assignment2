@@ -14,20 +14,12 @@ btton, input[type="button"],
 input[type = "submit"] {
 background-color: #666;}
 
+/*change font size of title of post*/
 .entry-title{
-font-size:30px;
+font-size:1.2rem;
 font-weight:bold}
 
-/*
-.site-content{
- background-image: url("http://foodsecret.com/wp-content/uploads/2015/10/Indian-Food.jpg");
- background-repeat: no-repeat;
- background-attachment: fixed;
- }
-.wrap {
-background-color: rgba( 0, 0, 0, 0.4) 
-}
-*/
+
 
 /*Change main background color*/
 .site-content-contain {
@@ -49,16 +41,68 @@ div#content {
     background-color: #ddae68;
 }
 
-.entry-header {
-   padding: 0 5%;
-}
-.entry-title, .widecolumn h2 {
-   margin-bottom: 0.5em;
-}
-.entry-content, .entry-summary {
-   padding: 0 5% 10%;
-}
+
+
 
 
  body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a, h1.site-title a {color:mintcream;
-background-color: black}
+background-color: black;
+padding: 0.5em;
+font-size: 30px;
+}
+
+/*remove post title h3*/
+h3 {
+    display: none;
+}
+
+/*remove date from posts*/
+.entry-meta{
+    display: none}
+
+
+/*remove edit link from front page*/
+.twentyseventeen-panel .edit-link{
+    display:none
+}
+
+/*remove edit link from about page*/
+.page .entry-header .edit-link{
+    display:none;
+}
+
+/*remove underline from anchor*/
+a {
+    text-decoration: none !important;
+    box-shadow: none !important;
+  }
+
+  /*remove underline from anchor of next and previous nav*/
+ a .nav-title{
+    text-decoration: none !important;
+    box-shadow: none !important; 
+  }
+
+  /*remove edit link from footer */
+  footer.entry-footer{
+      display:none;
+  }
+
+
+  .menu {
+      font-size: larger;
+      font-weight: bold; }
+
+
+/*change font-size of main title of pages*/
+      page .panel-content .entry-title,
+      .page-title,
+      body.page:not(.twentyseventeen-front-page) .entry-title {
+         
+          font-size: 1.3rem;
+      }
+
+      .widget-area {
+        background-color: skyblue;
+        }
+      
