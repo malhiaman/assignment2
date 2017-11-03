@@ -8,23 +8,20 @@ Template: twentyseventeen
 Version: 0.1.0
 */
 
+/*migrate additional css from parent theme */
 .site-info {display:none;}
 label { font-weight:600;}
 btton, input[type="button"],
 input[type = "submit"] {
 background-color: #666;}
 
+
+
 /*change font size of title of post*/
 .entry-title{
 font-size:1.2rem;
 font-weight:bold}
 
-
-
-/*Change main background color*/
-.site-content-contain {
-    background-color: black;
-}
 
 /*Remove top padding so main background color doesn't show above the content*/
 div#content {
@@ -33,23 +30,21 @@ div#content {
 
 /*Set content background color, add a bit of spacing*/
 #content .wrap {
-    background: #ddae68;
     padding-top: 30px;
 }
 
+/*cahnge background color of nav*/
 .navigation-top {
     background-color: #ddae68;
 }
 
-
-
-
-
- body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a, h1.site-title a {color:mintcream;
+/*changes to site-title*/
+body.has-header-image .site-title, body.has-header-video .site-title, body.has-header-image .site-title a, body.has-header-video .site-title a, h1.site-title a {color:mintcream;
 background-color: black;
 padding: 0.5em;
 font-size: 30px;
 }
+
 
 /*remove post title h3*/
 h3 {
@@ -58,51 +53,60 @@ h3 {
 
 /*remove date from posts*/
 .entry-meta{
-    display: none}
-
-
-/*remove edit link from front page*/
-.twentyseventeen-panel .edit-link{
-    display:none
-}
-
-/*remove edit link from about page*/
-.page .entry-header .edit-link{
-    display:none;
+    display: none
 }
 
 /*remove underline from anchor*/
 a {
     text-decoration: none !important;
     box-shadow: none !important;
-  }
+}     
 
-  /*remove underline from anchor of next and previous nav*/
+/*changes to main of front-page */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+div.panel-content {
+      background-color: lightyellow;
+      opacity: 0.9;
+      color:black;
+      font-size: 19px;
+  }     
+  
+/*remove underline from anchor of next and previous nav*/
  a .nav-title{
     text-decoration: none !important;
     box-shadow: none !important; 
   }
 
-  /*remove edit link from footer */
-  footer.entry-footer{
-      display:none;
-  }
-
-
-  .menu {
+/*changes to menu section*/
+.menu {
       font-size: larger;
       font-weight: bold; }
 
 
 /*change font-size of main title of pages*/
-      page .panel-content .entry-title,
-      .page-title,
-      body.page:not(.twentyseventeen-front-page) .entry-title {
+ page .panel-content .entry-title,
+ .page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
          
-          font-size: 1.3rem;
+    font-size: 1.3rem;
       }
 
-      .widget-area {
-        background-color: skyblue;
+
+/*changes to widget-area*/
+.widget-area {
+        font-size: 10px;
+        font-weight: bold
+    }
+
+
+/*changes to widget-title*/        
+h2.widget-title{
+            font-size: 13px;
         }
-      
+
+
+ /*changes to footer section*/       
+footer#colophon.site-footer {
+            background-color: black;
+        }
+
+        
